@@ -1,0 +1,355 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.24f1 (cf10dcf7010d) revision 13570268'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreSingleLanguage' Language: 'pt' Physical Memory: 16258 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/fabry/UFG
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53712
+Successfully changed project path to: C:/Users/fabry/UFG
+C:/Users/fabry/UFG
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [3216] Host "[IP] 192.168.1.130 [Port] 0 [Flags] 2 [Guid] 2178571444 [EditorId] 2178571444 [Version] 1048832 [Id] WindowsEditor(7,Fabrycio) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [3216] Host "[IP] 192.168.1.130 [Port] 0 [Flags] 2 [Guid] 2178571444 [EditorId] 2178571444 [Version] 1048832 [Id] WindowsEditor(7,Fabrycio) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 120.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/fabry/UFG/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 940MX (ID=0x134d)
+    Vendor:   NVIDIA
+    VRAM:     4054 MB
+    Driver:   31.0.15.3203
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006315 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 142.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.892 seconds
+Domain Reload Profiling:
+	ReloadAssembly (893ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (672ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (131ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (438ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (142ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (104ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.015103 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\fabry\UFG\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\fabry\UFG\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.464 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1465ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1191ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (358ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (571ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (282ms)
+				ProcessInitializeOnLoadMethodAttributes (161ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4235 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (114.6 KB). Loaded Objects now: 4678.
+Memory consumption went from 152.7 MB to 152.6 MB.
+Total: 8.603400 ms (FindLiveObjects: 0.422200 ms CreateObjectMapping: 0.337600 ms MarkObjects: 7.685700 ms  DeleteObjects: 0.156500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 81009.683101 seconds.
+  path: Assets/UFE/Demos/Shared_Assets/Stages/TrainingRoom2D/Materials/training_grid.mat
+  artifactKey: Guid(4cea6291cff275c4485d5cba56bdcf18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UFE/Demos/Shared_Assets/Stages/TrainingRoom2D/Materials/training_grid.mat using Guid(4cea6291cff275c4485d5cba56bdcf18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca074c8e4de279137b09d7c06a18c05') in 0.200571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/UFE/Demos/Shared_Assets/Stages/TrainingRoom2D/Materials/training_grid_red.mat
+  artifactKey: Guid(d7d19b035aa38144ca28366667000c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UFE/Demos/Shared_Assets/Stages/TrainingRoom2D/Materials/training_grid_red.mat using Guid(d7d19b035aa38144ca28366667000c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08fc2c991255fe1414244bed640e0fbd') in 0.032910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.519176 seconds.
+  path: Assets/UFE/Demos/Shared_Assets/Characters/Robot_Kyle/UI/PortrailBig.png
+  artifactKey: Guid(e6f43d0a029116142b97009a6f46de43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UFE/Demos/Shared_Assets/Characters/Robot_Kyle/UI/PortrailBig.png using Guid(e6f43d0a029116142b97009a6f46de43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8fbec4c7be4a38226bb3aff587eb977') in 0.140460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/UFE/Demos/Shared_Assets/Characters/Robot_Kyle/UI/PortrailSmall.png
+  artifactKey: Guid(482c02beb7d257d41821a2f63c89b2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UFE/Demos/Shared_Assets/Characters/Robot_Kyle/UI/PortrailSmall.png using Guid(482c02beb7d257d41821a2f63c89b2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1daa4d0395740e371bc41024584d0da') in 0.037321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.539349 seconds.
+  path: Assets/UFE/Demos/Shared_Assets/Characters/Robot_Kyle/Model/Robot_Kyle.fbx
+  artifactKey: Guid(320b1c2af77554f99a1658df4a6d3d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UFE/Demos/Shared_Assets/Characters/Robot_Kyle/Model/Robot_Kyle.fbx using Guid(320b1c2af77554f99a1658df4a6d3d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2b89c72ace709b8bc6cfb3c510c7f2') in 0.098249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.473872 seconds.
+  path: Assets/UFE/Demos/Shared_Assets/Characters/Robot_Kyle/Model/Textures/Robot_Color.tga
+  artifactKey: Guid(0a0e8af2869fa45f78e25460db578482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UFE/Demos/Shared_Assets/Characters/Robot_Kyle/Model/Textures/Robot_Color.tga using Guid(0a0e8af2869fa45f78e25460db578482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9945a93513f6cff0d416b4eabc21f7') in 0.032844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/UFE/Demos/Shared_Assets/Characters/Robot_Kyle/Model/Textures/Robot_Normal.tga
+  artifactKey: Guid(94c473c9137744d7eabd829f1150da8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UFE/Demos/Shared_Assets/Characters/Robot_Kyle/Model/Textures/Robot_Normal.tga using Guid(94c473c9137744d7eabd829f1150da8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd1f34c7fcecefbc2519ada492f9ae5') in 0.080955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.803862 seconds.
+  path: Assets/UFE/Demos/Shared_Assets/Characters/Robot_Kyle/Model/Materials/Robot_Color.mat
+  artifactKey: Guid(e0d5da285d93b94409b11879339aa054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UFE/Demos/Shared_Assets/Characters/Robot_Kyle/Model/Materials/Robot_Color.mat using Guid(e0d5da285d93b94409b11879339aa054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e261ac57fba17861d9355ad6feda7467') in 0.059083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2326.803533 seconds.
+  path: Assets/Agarkova_CG/Woman_with_cap/Art/Materials/Woman_body.mat
+  artifactKey: Guid(4efaaae9ef92f1048873e2d3595c60bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agarkova_CG/Woman_with_cap/Art/Materials/Woman_body.mat using Guid(4efaaae9ef92f1048873e2d3595c60bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a9c71aa7a6b09ab0f425abeadedcd3') in 0.488998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Agarkova_CG/Woman_with_cap/Prefab/Woman_with_cap.prefab
+  artifactKey: Guid(e788f48bcd3b68a4da5aa8c36971a6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agarkova_CG/Woman_with_cap/Prefab/Woman_with_cap.prefab using Guid(e788f48bcd3b68a4da5aa8c36971a6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916a21b2462505a2f72a1eda3a2d4d44') in 0.717910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Agarkova_CG/Woman_with_cap/Art/Textures/Woman_hair/Woman_hair.png
+  artifactKey: Guid(17b345f1904087a4b83b555b115e8919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agarkova_CG/Woman_with_cap/Art/Textures/Woman_hair/Woman_hair.png using Guid(17b345f1904087a4b83b555b115e8919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebda8d2744a4b37c4f8e19797e120461') in 0.032367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Agarkova_CG/Woman_with_cap/Art/Textures/Woman_lashes/Womanb_body_opacity.png
+  artifactKey: Guid(84bc611be83eabf458178689b8d25ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agarkova_CG/Woman_with_cap/Art/Textures/Woman_lashes/Womanb_body_opacity.png using Guid(84bc611be83eabf458178689b8d25ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431adaddd38de9d364b131c09a70b83f') in 0.026815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Agarkova_CG/Woman_with_cap/Art/Materials/Woman_lashes.mat
+  artifactKey: Guid(46daefea92c1c884d9de5c7726daf189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agarkova_CG/Woman_with_cap/Art/Materials/Woman_lashes.mat using Guid(46daefea92c1c884d9de5c7726daf189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373dc6596bda61a62ef3d556f6dc3063') in 0.033205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Agarkova_CG/Woman_with_cap/Art/Textures/Woman_clothes/Womanb_clothes_metallic.png
+  artifactKey: Guid(937c1114e305ed5428254d6f2c6ed181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agarkova_CG/Woman_with_cap/Art/Textures/Woman_clothes/Womanb_clothes_metallic.png using Guid(937c1114e305ed5428254d6f2c6ed181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53b10aa212937f9310d52c108eace0b') in 0.035822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Agarkova_CG/Woman_with_cap/Art/Textures/Woman_clothes/Womanb_clothes_normal.png
+  artifactKey: Guid(0d717701bde015744875abae7fb66765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agarkova_CG/Woman_with_cap/Art/Textures/Woman_clothes/Womanb_clothes_normal.png using Guid(0d717701bde015744875abae7fb66765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83127c56ba4a8be4d9218617ce0485e') in 0.055503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Agarkova_CG/Woman_with_cap/Art/Materials/Woman_hair.mat
+  artifactKey: Guid(95bdbf6e4480bff42b27f678f32bc5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agarkova_CG/Woman_with_cap/Art/Materials/Woman_hair.mat using Guid(95bdbf6e4480bff42b27f678f32bc5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647bc6d7590865cb511db15b21fdba67') in 0.031698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Agarkova_CG/Woman_with_cap/Art/Textures/Woman_body/Womanb_body_normal.png
+  artifactKey: Guid(0f6d33d8e6437c34ea976c578d7df0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agarkova_CG/Woman_with_cap/Art/Textures/Woman_body/Womanb_body_normal.png using Guid(0f6d33d8e6437c34ea976c578d7df0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2d72649ababfff172b92bbe7997906') in 0.047693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Agarkova_CG/Woman_with_cap/Art/Mesh/Woman_with_cap.fbx
+  artifactKey: Guid(55824f20175bc6b44a630b3644c8f43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agarkova_CG/Woman_with_cap/Art/Mesh/Woman_with_cap.fbx using Guid(55824f20175bc6b44a630b3644c8f43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c62fe43ad620ddf6ee1098348aa9136') in 0.219750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Agarkova_CG/Woman_with_cap/Art/Textures/Woman_clothes/Womanb_clothes_albedo.png
+  artifactKey: Guid(c651bb88279ed464891ce98c8b339d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agarkova_CG/Woman_with_cap/Art/Textures/Woman_clothes/Womanb_clothes_albedo.png using Guid(c651bb88279ed464891ce98c8b339d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef7ef1005d8b47a0aec8c52e3955499') in 0.041523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Agarkova_CG/Woman_with_cap/Art/Textures/Woman_body/Womanb_body_albedo.png
+  artifactKey: Guid(cbbc0fa43acee6f4b9412d5bdfa3617d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agarkova_CG/Woman_with_cap/Art/Textures/Woman_body/Womanb_body_albedo.png using Guid(cbbc0fa43acee6f4b9412d5bdfa3617d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c949d2ba2e798f85e8f0e5480f4cfd2') in 0.043032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Agarkova_CG/Woman_with_cap/Art/Materials/Woman_clothes.mat
+  artifactKey: Guid(071050f84dbb9c946bafd1a0a4c0ec43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agarkova_CG/Woman_with_cap/Art/Materials/Woman_clothes.mat using Guid(071050f84dbb9c946bafd1a0a4c0ec43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba5916382c9d4c0b930aa427489ecd1') in 0.080452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Agarkova_CG/Woman_with_cap/Art/Textures/Woman_body/Womanb_body_metallic.png
+  artifactKey: Guid(9b9456006b9f61544a1b36e3ed8b802a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Agarkova_CG/Woman_with_cap/Art/Textures/Woman_body/Womanb_body_metallic.png using Guid(9b9456006b9f61544a1b36e3ed8b802a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baffcd91063c5edef2eab45111da3623') in 0.034992 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011667 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\fabry\UFG\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\fabry\UFG\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.966 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3967ms)
+		BeginReloadAssembly (1022ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (69ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (222ms)
+		EndReloadAssembly (2666ms)
+			LoadAssemblies (420ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (863ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (141ms)
+			SetupLoadedEditorAssemblies (1268ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (178ms)
+				ProcessInitializeOnLoadAttributes (661ms)
+				ProcessInitializeOnLoadMethodAttributes (393ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 14.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4228 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (81.1 KB). Loaded Objects now: 4733.
+Memory consumption went from 157.1 MB to 157.0 MB.
+Total: 13.997900 ms (FindLiveObjects: 0.576800 ms CreateObjectMapping: 0.533800 ms MarkObjects: 12.722600 ms  DeleteObjects: 0.162800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
